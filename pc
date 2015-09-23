@@ -19,11 +19,13 @@ xkb_symbols "pc105" {
     key  <TAB> {	[ Tab,	ISO_Left_Tab	]	};
     key <RTRN> {	[ Return		]	};
 
-    key <CAPS> {	[ Caps_Lock		]	};
+    // key <CAPS> {	[ Caps_Lock		]	};
+    key <CAPS> {	[ Control_L		]	};
     key <NMLK> {	[ Num_Lock 		]	};
 
     key <LFSH> {	[ Shift_L		]	};
-    key <LCTL> {	[ Control_L		]	};
+    // key <LCTL> {	[ Control_L		]	};
+    key <LCTL> {	[ Caps_Lock		]	};
     key <LWIN> {	[ Super_L		]	};
 
     key <RTSH> {	[ Shift_R		]	};
